@@ -26,4 +26,13 @@ void main() {
     int result = nilai[i] * 2;
     print(result);
   }
+
+  /// Infinite loop
+  // for (var i = 0; true; i++) {
+  //   if (i == 10) {
+  //     break;
+  //   }
+  //   print(i);
+  // }
+  // print("Selesai Looping");
 }
