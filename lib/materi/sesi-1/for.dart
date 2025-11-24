@@ -10,9 +10,19 @@ void main() {
     print(result);
   }
 
+  /// Infinite loop
   int i = 0;
   while (true) {
     print('$i');
     i++;
   }
+
+  /// Infinite loop
+  // for (var i = 0; true; i++) {
+  //   if (i == 10) {
+  //     break;
+  //   }
+  //   print(i);
+  // }
+  // print("Selesai Looping");
 }
