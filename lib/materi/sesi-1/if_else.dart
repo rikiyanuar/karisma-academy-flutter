@@ -1,7 +1,7 @@
 void main() {
   double nilaiSiswa = kalkulasiNilai(
-    ipa: 90,
     ips: 85,
+    ipa: 90,
     matematika: 95,
   );
   double rataRata = nilaiSiswa / 3;

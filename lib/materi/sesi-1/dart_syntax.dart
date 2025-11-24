@@ -6,4 +6,11 @@ void main() {
       print('$i adalah ganjil');
     }
   }
+
+  String name = 'Portnoy';
+  print(name);
+}
+
+add() {
+  return 1;
 }

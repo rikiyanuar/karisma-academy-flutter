@@ -6,6 +6,10 @@ num divide(num a, num b) {
   return a / b;
 }
 
+num kali(num a, num b) {
+  return a * b;
+}
+
 String greet(String name, [String? title]) {
   if (title != null) {
     return 'Hello, $title $name';
@@ -24,8 +28,8 @@ String greet2(String name, {String? title, int? age}) {
 
 void main() {
   // Memanggil fungsi ADD
-  // num result = add(5, 100);
-  // print('Hasil penjumlahan: $result');
+  num result = add(5, 100);
+  print('Hasil penjumlahan: $result');
 
   // num resultNum = divide(9, 3);
   // print('Hasil pembagian: $resultNum');
